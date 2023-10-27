@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <header>
+        <section>
+            <label for="title">ToDoList</label>
+            <input type="text" id="title" name="title" placeholder="添加ToDo"
+            autocomplete="off"></input>
+        </section>
+    </header>
+    <main>
+        <section id="content">
+            <h1>正在进行 <span id="todoCount"></span></h1>
+            <ul id="todoList"></ul>
+            <h1>已经完成 <span id="doneCount"></span></h1>
+            <ul id="doneList"></ul>
+        </section>
+    </main>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
